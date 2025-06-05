@@ -4,4 +4,5 @@
 4. git branch -m main
 5. git remote add origin SSH OR HTTPS
 6. git push origin main
+OR,
 7. git push orgiin main --force
