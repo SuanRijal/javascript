@@ -11,15 +11,6 @@ const arrowmul=(a,b)=>{  //arroe fucntion should be stored in variable,right sid
 }
 arrowmul(5,6);
 
-function countVowels(str){
-    let count=0;
-    for(const char of str)
-        if(char==="a"|| char==="e"|| char==="i"|| char==="o"|| char==="u"){
-    count++;
-        }
-}
-
-console.log(count); 
 
 
 function greet(){
@@ -35,3 +26,49 @@ const parent={
 }
 const child= Object.create(parent);
 child.greet(); //inherits and uses greet from parent
+
+
+
+ 
+
+
+// let names=["anusha","sharmi","rooji"]
+// let count=0;
+// for(const word of names){ //nested loop is used in this
+//     for(const char of word){
+
+//         if(
+//             char==="a"|| char==="e"|| char==="i"|| char==="o"||char==="u"
+//         ){
+//             count++
+
+//         }
+//     }
+// }
+
+// console.log(count)
+
+
+function countVow = (str)=>{
+   let count=0;
+   for(const char of countVow){
+    if(
+        char==="a"|| char==="e"|| char==="i"|| char==="o"||char==="u"
+    ){
+     count++
+    }
+   }
+}
+countVow();
+console.log(count);
+
+//foreach method to create a loop, parameters call back function is pass
+//for a given array of number, print square of each number using for each loop
+
+let numbers=[1,2,3,4,5]
+let calculateSquare= (num)=>{//call back function
+    console.log(num*num);
+ 
+}
+
+numbers.forEach(calculateSquare)   
