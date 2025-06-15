@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 200px;
+    border: 10px solid black;
+    margin: 2px;
+   text-align: center;
+   background-color: #f66464;
+}
+.class1{
+    color: rgb(42, 55, 243);
+    background-color: #fff;
+}
+
+.class2{
+    color:aqua;
+    background: #000;
+}

@@ -49,18 +49,18 @@ child.greet(); //inherits and uses greet from parent
 // console.log(count)
 
 
-function countVow = (str)=>{
-   let count=0;
-   for(const char of countVow){
-    if(
-        char==="a"|| char==="e"|| char==="i"|| char==="o"||char==="u"
-    ){
-     count++
-    }
-   }
-}
-countVow();
-console.log(count);
+// function countVow (char)=>{
+//    let count=0;
+//    for(const char of countVow){
+//     if(
+//         char==="a"|| char==="e"|| char==="i"|| char==="o"||char==="u"
+//     ){
+//      count++
+//     }
+//    }
+// }
+// countVow()
+// console.log(count);
 
 //foreach method to create a loop, parameters call back function is pass
 //for a given array of number, print square of each number using for each loop
@@ -72,3 +72,16 @@ let calculateSquare= (num)=>{//call back function
 }
 
 numbers.forEach(calculateSquare)   
+
+let nums=[4,7,8,9]
+
+// nums.map((val)=>{
+// console.log(val);  arr.map method  with call back function
+// });
+
+
+
+let newArray=nums.map((val)=>{
+ return val;
+})
+ console.log(newArray);
